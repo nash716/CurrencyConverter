@@ -1,0 +1,18 @@
+{
+	"name": "CurrencyConverter",
+	"manifest_version": 2,
+	"version": "0.1",
+	"description": "いろいろな通貨を日本円にして表示する Chrome 拡張機能です。", 
+	"permissions": [
+		"contextMenus",
+		"tabs",
+		"http://*/*",
+		"https://*/*"
+	],
+	"background": {
+		"persistent": false,
+		"scripts": [
+			"background.js"
+		]
+	}
+}
